@@ -1,0 +1,6 @@
+---
+    deployment:
+      tasks:
+        - export DEPLOYPATH=/home/rodseqac/repositories/RodSec/
+        - /bin/cp index.html $DEPLOYPATH
+        - /bin/cp style.html $DEPLOYPATH
